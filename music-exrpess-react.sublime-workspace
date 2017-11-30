@@ -1,0 +1,1947 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"alexandris",
+				"alexandrisanas@gmail"
+			],
+			[
+				"li",
+				"listen\t(app.js)"
+			],
+			[
+				"body",
+				"body-parser\t(package.json)"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"co",
+				"conf\tmodule"
+			],
+			[
+				"publish",
+				"published_date\tstatement"
+			],
+			[
+				"url",
+				"urlpatterns\t(urls.py)"
+			],
+			[
+				"pub",
+				"published_date\tstatement"
+			],
+			[
+				"STATI",
+				"STATIC_ROOT"
+			],
+			[
+				"prs",
+				"presAge"
+			],
+			[
+				"nums",
+				"numSlice3"
+			],
+			[
+				"num",
+				"numSlice3"
+			],
+			[
+				"arr",
+				"arraysSlice"
+			],
+			[
+				"pri",
+				"Println\tn int, err error ƒ"
+			],
+			[
+				"fav",
+				"favNums2"
+			],
+			[
+				"pr",
+				"Println\tn int, err error ƒ"
+			],
+			[
+				"fa",
+				"favNums"
+			],
+			[
+				"floa",
+				"float64"
+			],
+			[
+				"your",
+				"your_age"
+			],
+			[
+				"sw",
+				"switch_statement"
+			],
+			[
+				"Print",
+				"Println\tn int, err error ƒ"
+			],
+			[
+				"if",
+				"if_statements"
+			],
+			[
+				"Pri",
+				"Println\tn int, err error ƒ"
+			],
+			[
+				"for_",
+				"for_oneLine"
+			],
+			[
+				"P",
+				"Println\tn int, err error ƒ"
+			],
+			[
+				"km",
+				"kmh_multiple"
+			],
+			[
+				"in",
+				"index_handler"
+			],
+			[
+				"Prin",
+				"Println\tn int, err error ƒ"
+			],
+			[
+				"pa",
+				"package\t(serving_file.go)"
+			],
+			[
+				"Han",
+				"Handle\t ƒ"
+			],
+			[
+				"StatusT",
+				"StatusText\tstring ƒ"
+			],
+			[
+				"Write",
+				"WriteHeader\t ƒ"
+			],
+			[
+				"Read",
+				"ReadFile\t[]byte, error ƒ"
+			],
+			[
+				"Handle",
+				"HandleFunc\t ƒ"
+			],
+			[
+				"some",
+				"someotherFunc"
+			],
+			[
+				"HA",
+				"HandleFunc\t ƒ"
+			],
+			[
+				"Re",
+				"Request\tstruct ʈ"
+			],
+			[
+				"Resp",
+				"ResponseWriter\tinterface ¡"
+			],
+			[
+				"about",
+				"about_handler"
+			],
+			[
+				"up",
+				"up_star"
+			],
+			[
+				"space",
+				"space_con"
+			],
+			[
+				"spac",
+				"space_con"
+			],
+			[
+				"get",
+				"get_dianonds"
+			],
+			[
+				"check",
+				"check_bit4"
+			],
+			[
+				"my",
+				"my_car"
+			],
+			[
+				"templa",
+				"template_name"
+			],
+			[
+				"ques",
+				"question_id"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect"
+			],
+			[
+				"question",
+				"question.id\t(index.html)"
+			],
+			[
+				"que",
+				"question_id"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"tem",
+				"template"
+			],
+			[
+				"del",
+				"delorian"
+			],
+			[
+				"form",
+				"form_valid\tfunction"
+			],
+			[
+				"Item",
+				"ItemCreateView"
+			],
+			[
+				"Ite",
+				"ItemUpdateView"
+			],
+			[
+				"res",
+				"restaurant\t(models.py)"
+			],
+			[
+				"auto_now",
+				"auto_now_add\tparam"
+			],
+			[
+				"Dat",
+				"DateTimeField\tclass"
+			],
+			[
+				"help",
+				"help_text\tparam"
+			],
+			[
+				"resta",
+				"restaurants\t(urls.py)"
+			],
+			[
+				"Auth",
+				"AUTH_PROFILE_MODULE"
+			],
+			[
+				"name",
+				"namespace\tparam"
+			],
+			[
+				"mi",
+				"mixins\tmodule"
+			],
+			[
+				"Res",
+				"RestaurantCreateView"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"deco",
+				"decorators\tmodule"
+			],
+			[
+				"form_",
+				"form_valid\tfunction"
+			],
+			[
+				"restaurant",
+				"restaurant_createview"
+			],
+			[
+				"out",
+				"out_file"
+			],
+			[
+				"text",
+				"text_file"
+			],
+			[
+				"wr",
+				"write\tfunction"
+			],
+			[
+				"prm",
+				"prompt\tstatement"
+			],
+			[
+				"format",
+				"formatter"
+			],
+			[
+				"fromat",
+				"formatter"
+			],
+			[
+				"from",
+				"formatter"
+			],
+			[
+				"joke",
+				"joke_evaluation"
+			],
+			[
+				"my_w",
+				"my_weight"
+			],
+			[
+				"my_",
+				"my_height"
+			],
+			[
+				"cars",
+				"cars_driven\tstatement"
+			],
+			[
+				"ang",
+				"angle3"
+			],
+			[
+				"angle",
+				"angle2"
+			],
+			[
+				"greet",
+				"greeting"
+			],
+			[
+				"vali",
+				"validate_category"
+			],
+			[
+				"valid",
+				"validate_category\tfunction"
+			],
+			[
+				"Restaurant",
+				"RestaurantCreateView\t(views.py)"
+			],
+			[
+				"RestaurantLo",
+				"RestaurantLocationCreateForm"
+			],
+			[
+				"Resta",
+				"RestaurantLocation"
+			],
+			[
+				"Ps",
+				"POST"
+			],
+			[
+				"htt",
+				"HttpResponseRedirect\tclass"
+			],
+			[
+				"PO",
+				"POST"
+			],
+			[
+				"Po",
+				"POST"
+			],
+			[
+				"rand",
+				"random_string_generator"
+			],
+			[
+				"uni",
+				"unique_slug_generator"
+			],
+			[
+				"rl",
+				"rl_post_save_receiver"
+			],
+			[
+				"post",
+				"post_save"
+			],
+			[
+				"pre",
+				"pre_save\tstatement"
+			],
+			[
+				"Restau",
+				"RestaurantLocation"
+			],
+			[
+				"rest",
+				"rest_id"
+			],
+			[
+				"as",
+				"as_view\tfunction"
+			],
+			[
+				"Rest",
+				"RestaurantLocation"
+			],
+			[
+				"List",
+				"ListView\tclass"
+			],
+			[
+				"cont",
+				"context\tstatement"
+			],
+			[
+				"templ",
+				"template_name"
+			],
+			[
+				"time",
+				"timezone"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"c",
+				"CharField"
+			],
+			[
+				"te",
+				"template_name"
+			],
+			[
+				"template",
+				"template_name\t(views.py)"
+			],
+			[
+				"Temp",
+				"TemplateView"
+			],
+			[
+				"About",
+				"AboutView"
+			],
+			[
+				"Home",
+				"HomeView\tclass"
+			],
+			[
+				"Con",
+				"ContactTemplateView"
+			],
+			[
+				"Cont",
+				"ContactTemplateView\t(views.py)"
+			],
+			[
+				"Tem",
+				"TemplateView"
+			],
+			[
+				"home",
+				"home3\t(views.py)"
+			],
+			[
+				"displa",
+				"display_signatures\t(Anaconda.sublime-settings)"
+			],
+			[
+				"enable",
+				"enable_signatures_tooltip\t(Anaconda.sublime-settings)"
+			],
+			[
+				"anaconda_gutt",
+				"anaconda_gutter_theme"
+			],
+			[
+				"anaconda_gutter",
+				"anaconda_gutter_marks\t(Anaconda.sublime-settings)"
+			],
+			[
+				"anaconda_linter_",
+				"anaconda_linter_phantoms\t(Anaconda.sublime-settings)"
+			],
+			[
+				"con",
+				"condition_bool_item"
+			],
+			[
+				"context",
+				"context\tstatement"
+			],
+			[
+				"html",
+				"html_\tstatement"
+			],
+			[
+				"h",
+				"EMAIL_HOST"
+			],
+			[
+				"cat",
+				"catsName"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/usertl/Dropbox/node_express/express_crash_course/app.js",
+			"settings":
+			{
+				"buffer_size": 2047,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/usertl/Dropbox/django_girls/djangogirls/blog/admin.py",
+			"settings":
+			{
+				"buffer_size": 85,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test.html",
+			"settings":
+			{
+				"buffer_size": 150,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "instructions.log",
+			"settings":
+			{
+				"buffer_size": 113,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/sublime-react-webpack/package.json",
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/open_in_chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/User/python34_repl.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/c.sublime-build",
+					""
+				],
+				[
+					"Packages/User/c.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/c.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "pa",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"Django:",
+				"Django: Check"
+			],
+			[
+				"",
+				"A File Icon: Revert to a Freshly Installed State"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 212.0,
+		"history":
+		[
+			"[ v.settings().erase(\"color_scheme\") for views in [ w.views() for w in sublime.windows() ] for v in views ]",
+			"import socket; socket.socket(socket.AF_INET,socket.SOCK_STREAM).connect((\"localhost\", 51602))",
+			"reboot",
+			"restart"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/music-list"
+	],
+	"file_history":
+	[
+		"/C/music-list/.gitignore",
+		"/C/sublime-react-webpack/index.js",
+		"/C/sublime-react-webpack/.gitignore",
+		"/C/Users/usertl/Dropbox/selenium/passcodes/polynomian1.py",
+		"/C/Users/usertl/Dropbox/django_girls/djangogirls/blog/static/css/blog.css",
+		"/C/Users/usertl/Dropbox/django_girls/djangogirls/blog/models.py",
+		"/C/react-web-basic-setup/src/js/App.jsx",
+		"/C/sublime-react-webpack/instructions.log",
+		"/C/sublime-react-webpack/package.json",
+		"/C/Users/usertl/Dropbox/go/instructions.log",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter/Watermelon (SL).tmTheme",
+		"/C/Users/usertl/Dropbox/node_express/http_server/app.js",
+		"/C/Users/usertl/Dropbox/go/derek1.go",
+		"/C/Users/usertl/Dropbox/node_express/express_crash_course/instructions.txt",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/C/Users/usertl/Dropbox/node_express/express_crash_course/package.json",
+		"/C/Users/usertl/Dropbox/node_express/index.js",
+		"/C/Users/usertl/Dropbox/node_express/instructions.txt",
+		"/C/Users/usertl/Dropbox/node_express/package.json",
+		"/C/Users/usertl/Dropbox/django_girls/djangogirls/blog/urls.py",
+		"/C/Users/usertl/Dropbox/django_girls/djangogirls/mysite/urls.py",
+		"/C/Users/usertl/Dropbox/django_girls/djangogirls/mysite/settings.py",
+		"/C/Users/usertl/Dropbox/django_girls/djangogirls/blog/templates/blog/base.html",
+		"/C/Users/usertl/Dropbox/django_girls/djangogirls/blog/templates/blog/post_detail.html",
+		"/C/Users/usertl/Dropbox/django_girls/djangogirls/blog/templates/blog/post_list.html",
+		"/C/Users/usertl/Dropbox/django_girls/djangogirls/blog/views.py",
+		"/C/Users/usertl/Dev/trydjango/src/restaurants/urls.py",
+		"/C/Users/usertl/Dev/trydjango/src/restaurants/utils.py",
+		"/C/Users/usertl/Dev/trydjango/src/templates/snippets/css.html",
+		"/C/Users/usertl/Dev/trydjango/src/templates/snippets/js.html",
+		"/C/Users/usertl/Dev/trydjango/src/templates/base.html",
+		"/C/Users/usertl/Dropbox/django_girls/djangogirls/.gitignore",
+		"/C/Users/usertl/Dropbox/django_girls/djangogirls/blog/admin.py",
+		"/C/Users/usertl/Django_for_girls/django_tut/mysite/blog/views.py",
+		"/C/Users/usertl/Django_for_girls/django_tut/mysite/blog/models.py",
+		"/C/Users/usertl/Django_for_girls/django_tut/mysite/blog/templates/blog/post_list.html",
+		"/C/Users/usertl/Django_for_girls/django_tut/mysite/blog/urls.py",
+		"/C/Users/usertl/Django_for_girls/django_tut/mysite/mysite/urls.py",
+		"/C/Users/usertl/Dropbox/go/servers/project1/serving_file.go",
+		"/C/Users/usertl/Dev/trydjango/src/restaurants/admin.py",
+		"/C/Users/usertl/Django_for_girls/django_tut/mysite/mysite/settings.py",
+		"/C/Users/usertl/Dev/trydjango/src/muypicky/urls.py",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/Colorsublime-Themes/Watermelon.tmTheme",
+		"/C/Users/usertl/Django_for_girls/django_tut/mysite/gitignore",
+		"/C/Users/usertl/Django_for_girls/django_tut/mysite/blog/admin.py",
+		"/C/Users/usertl/Django_for_girls/tutorials/classes1.py",
+		"/C/Users/usertl/Dev/trydjango/src/menus/admin.py",
+		"/C/Users/usertl/Dropbox/go/gotut1.go",
+		"/C/Users/usertl/Dropbox/go/sendex_server/serve2.go",
+		"/C/Users/usertl/Dropbox/go/derek_recursion.go",
+		"/C/Users/usertl/Dropbox/go/derek_closures.go",
+		"/C/Users/usertl/Dev/trydjango/derek_closures.go",
+		"/C/Users/usertl/Dropbox/go/sendex_server/main_serve.go",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/usertl/Dropbox/go/servers/project1/main_server.go",
+		"/C/Users/usertl/Dropbox/go/servers/project1/custom_mux.go",
+		"/C/Users/usertl/Dropbox/go/servers/project1/server2.go",
+		"/C/Users/usertl/Dev/trydjango/src/menus/forms.py",
+		"/C/Users/usertl/Dev/trydjango/src/menus/views.py",
+		"/C/Users/usertl/Dev/trydjango/src/templates/form.html",
+		"/C/Users/usertl/Dropbox/go/gotut2.go",
+		"/C/Users/usertl/Dropbox/go/server1.go",
+		"/C/Users/usertl/Dropbox/go/gotut1.exe",
+		"/C/Users/usertl/Dropbox/go/go_web.go",
+		"/C/Users/usertl/Dropbox/go/go1.go",
+		"/C/Users/usertl/Dropbox/django/djago_documentation/home/django_app/mysite/polls/views.py",
+		"/C/Users/usertl/Dropbox/django/djago_documentation/home/django_app/mysite/polls/urls.py",
+		"/C/Users/usertl/Dropbox/django/djago_documentation/home/django_app/mysite/polls/templates/polls/detail.html",
+		"/C/Users/usertl/Dropbox/django/djago_documentation/home/django_app/mysite/polls/templates/polls/index.html",
+		"/C/Users/usertl/Dropbox/python_scripts/python_manual/simon_car/main_window_structure.py",
+		"/C/Users/usertl/Dropbox/django/djago_documentation/home/django_app/mysite/polls/templates/polls/results.html",
+		"/C/Users/usertl/Dropbox/django/djago_documentation/home/django_app/mysite/polls/models.py",
+		"/C/Users/usertl/Dev/trydjango/star.py",
+		"/C/Users/usertl/Dev/trydjango/src/menus/templates/menus/item_list.html",
+		"/C/Users/usertl/Dev/trydjango/src/menus/urls.py",
+		"/C/Users/usertl/Dev/trydjango/inheritance1.py",
+		"/C/Users/usertl/Dev/trydjango/src/menus/templates/menus/item_detail.html",
+		"/C/Users/usertl/Dev/trydjango/src/menus/models.py",
+		"/C/Users/usertl/Dev/trydjango/src/restaurants/templates/restaurants/form.html",
+		"/C/Users/usertl/Dev/trydjango/src/restaurants/views.py",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/usertl/Dev/trydjango/src/restaurants/models.py",
+		"/C/Users/usertl/Dev/trydjango/src/muypicky/settings/base.py",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/usertl/Dev/trydjango/src/restaurants/templates/restaurants/restaurantlocation_list.html",
+		"/C/Users/usertl/Dev/trydjango/test1.py",
+		"/C/Users/usertl/Dev/trydjango/src/templates/snippets/nav.html",
+		"/C/Users/usertl/Dev/trydjango/src/restaurants/templates/restaurants/restaurantlocation_detail.html",
+		"/C/Users/usertl/Dropbox/books/pytho_the_hard_3/ex/test.py",
+		"/C/Users/usertl/Dropbox/books/pytho_the_hard_3/ex/ex22.py",
+		"/C/Users/usertl/Dropbox/books/pytho_the_hard_3/ex/ex21.py",
+		"/C/Users/usertl/Dropbox/books/pytho_the_hard_3/ex/ex.txt",
+		"/C/Users/usertl/Dev/trydjango/src/restaurants/forms.py",
+		"/C/Users/usertl/Dropbox/books/pytho_the_hard_3/ex/ex15.py",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter/Dark-Dracula (SL).tmTheme",
+		"/C/Users/usertl/Dropbox/books/pytho_the_hard_3/ex/lpth.py",
+		"/C/Users/usertl/Dropbox/books/pytho_the_hard_3/ex/lpth.pyu",
+		"/C/Users/usertl/Dev/trydjango/sample1.py",
+		"/C/Users/usertl/Dev/trydjango/src/instructions.txt",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/backups",
+		"/C/Users/usertl/Dev/trydjango/src/templates/home.html",
+		"/C/Users/usertl/Dev/trydjango/src/templates/contact.html",
+		"/C/Users/usertl/Dev/trydjango/src/templates/about.html",
+		"/C/Users/usertl/Dev/trydjango/src/backups/views_back.py",
+		"/G/Untitled Folder/from damaged/New folder/File0016800.AVI",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Installed Packages/Predawn.sublime-package",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/Djaneiro/Settings/HTML (Django).sublime-settings",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/Djaneiro/Settings/Python (Django).sublime-settings",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/User/Python (Django).sublime-settings",
+		"/C/Users/usertl/Dev/trydjango/src/templates/snippets/sidebar.html",
+		"/C/Users/usertl/Dev/trydjango/kolos.html",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/projects/c_tutorials/tut2/main.c",
+		"/C/Users/usertl/Dev/trydjango/src/muypicky/settings/local.py",
+		"/C/Users/usertl/Dev/trydjango/src/muypicky/settings/__init__.py",
+		"/C/Users/usertl/Downloads/test1.py",
+		"/C/Users/usertl/Dev/trydjango/src/muypicky/settings/production.py",
+		"/C/Users/usertl/Dev/trydjango/src/requirements.txt",
+		"/C/Users/usertl/Dev/trydjango/src/muypicky/old_settings.py",
+		"/F/developement/subl_settings_back..no-sublime-package",
+		"/C/projects/c_tutorials/tut2/bucky.h",
+		"/G/back_c/Users/va/files_manipulation/write.py",
+		"/C/Users/usertl/Dropbox/polynomian1.py",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/User/auto_save.sublime-settings",
+		"/C/Users/usertl/AppData/Roaming/Sublime Text 3/Packages/User/python_36.sublime-build"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"06",
+			"}\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/usertl/Dropbox/node_express/express_crash_course/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								787,
+								787
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.go"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										878,
+										879
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										873,
+										874
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"colorcode": true,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/usertl/Dropbox/django_girls/djangogirls/blog/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 85,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.go"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.go"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "instructions.log",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.go"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/zzz A File Icon zzz/aliases/Plain Text (Log).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "/C/sublime-react-webpack/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.go"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										123,
+										124
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										123,
+										124
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (NPM).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 81.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.68754423213,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.GoSublime-main-output":
+	{
+		"height": 162.0
+	},
+	"output.exec":
+	{
+		"height": 258.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "music-exrpess-react.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 165.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
