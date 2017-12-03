@@ -11,8 +11,10 @@ export default function Template() {
         <Router>
             <div className="wrapper">
                 <Header username="Entropy the god"/>
+                <section className="page-content">
                 <Route exact path="/" component={HomePage} />
                 <Route path="/acount/profile/:id" component={ProfilePage} />
+                </section>
             </div>
         </Router>
 
