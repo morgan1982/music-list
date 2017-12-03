@@ -43,9 +43,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 //routers
-app.use('/', index);
-app.use('/api', api);
+app.use('/api', api); // first so if express find the api route it will not send to react
 app.use('/api/users', users);
+app.use('/*', index);
+
+
 //Configure passport
 const User =  require('./models/user');
 passport.use(new LocalStrategy(User.authenticate()));
@@ -54,7 +56,7 @@ passport.deserializeUser(User.deserializeUser());
 
 // catch 404 and forward to error handler
 app.use( (req, res, next) => {
-  var err = new Error('Not Found');
+  let err = new Error('Not Found');
   err.status = 404;
   next(err);
 });
