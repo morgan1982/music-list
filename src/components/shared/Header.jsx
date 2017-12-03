@@ -10,6 +10,7 @@ export default function Header(props) {
             <h1>MusicList</h1>
                 <div className="user-menu">
                     <h2>Welcome { username }</h2>
+                    <h3>Below are your amazing options for today</h3>
                     <nav>
                         <ul>
                             <li><Link to="/">Home</Link></li>

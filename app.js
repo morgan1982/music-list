@@ -8,6 +8,12 @@ const mongoose = require('mongoose');
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 
+// for webpack config
+const webpack = require('webpack');
+const webpackConfig = require('./webpack.config');
+const webpackDevMiddleware = require('webpack-dev-middleware');
+const webpackHotMiddleware = require('webpack-hot-middleware');
+
 const index = require('./routes/index');
 const api = require('./routes/api/index');
 const users = require('./routes/api/users');
@@ -41,8 +47,22 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// WEBPACK SERVER
+const webpackCompiler = webpack(webpackConfig);
+app.use(webpackDevMiddleware(webpackCompiler, {
+  publicPath: webpackConfig.output.publicPath,
+  stats: {
+    colors: true,
+    chunks: true,
+    'erros-only': true,
+  },
+}));
+app.use(webpackHotMiddleware(webpackCompiler, {
+  log: console.log,
+}));
 
-//routers
+
+// routers
 app.use('/api', api); // first so if express find the api route it will not send to react
 app.use('/api/users', users);
 app.use('/*', index);
