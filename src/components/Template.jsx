@@ -5,13 +5,14 @@ import Header from './shared/Header';
 import HomePage from './home/HomePage';
 import ProfilePage from './account/ProfilePage';
 
+
 export default function Template() {
 
     return (
         <Router>
             <div className="wrapper">
                 <Header username="Entropy the god"/>
-                <section className="page-content">
+                <section className="page-content container-fluid">
                 <Route exact path="/" component={HomePage} />
                 <Route path="/acount/profile/:id" component={ProfilePage} />
                 </section>

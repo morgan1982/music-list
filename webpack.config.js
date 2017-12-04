@@ -1,8 +1,10 @@
 const { resolve } = require('path');
 const webpack = require('webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     context: resolve(__dirname, 'src'),
+    // devtool: "inline-source-map",
     entry: [
         'react-hot-loader/patch',
         'react-hot-loader/babel',
@@ -11,9 +13,9 @@ module.exports = {
     ],
     output: {
         // name to reference the entry point
-        filename: 'build.js',
+        filename: 'javascripts/build.js',
         path: '/', // now it uses a virtual server fot he path so the location to the disc does not matter.
-        publicPath: '/javascripts',
+        publicPath: '/',
     },
     resolve: {
     // to look for certain extensions
@@ -26,11 +28,19 @@ module.exports = {
                 exclude: /(node_modules|bower_components|public\/)/,
                 loader: 'babel-loader',
             },
+            {
+                test: /\.css$/,
+                use: ExtractTextPlugin.extract({
+                    fallback: 'style-loader',
+                    use: 'css-loader',
+                }),
+            },
         ],
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NamedModulesPlugin(),
         new webpack.NoEmitOnErrorsPlugin(),
+        new ExtractTextPlugin('stylesheets/style.css'),
     ],
 };
