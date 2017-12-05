@@ -1,25 +1,36 @@
 const { resolve } = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+
+const cssOutputLocation = process.env.NODE_ENV === 'production' ?
+    'public/stylesheets/style-prod.css' :
+    'stylesheets/style.css';
+
+const jsProdOutput = {
+    filename: 'public/javascripts/build-prod.js',
+    path: resolve(__dirname),
+    publicPath: '/',
+};
+
+const jsDevOutput = {
+    filename: 'javascripts/build.js',
+    path: '/',
+    publicPath: '/',
+};
+
+const jsOutputLocation = process.env.NODE_ENV === 'production' ? jsProdOutput : jsDevOutput;
 
 module.exports = {
     context: resolve(__dirname, 'src'),
     // devtool: "inline-source-map",
     entry: [
-        'react-hot-loader/patch',
-        'react-hot-loader/babel',
-        'webpack-hot-middleware/client',
         './index.jsx',
     ],
-    output: {
-        // name to reference the entry point
-        filename: 'javascripts/build.js',
-        path: '/', // now it uses a virtual server fot he path so the location to the disc does not matter.
-        publicPath: '/',
-    },
+    output: jsOutputLocation,
     resolve: {
     // to look for certain extensions
-    extensions: ['.js', '.jsx'],
+       extensions: ['.js', '.jsx'],
     },
     module: {
         rules: [
@@ -53,9 +64,21 @@ module.exports = {
         ],
     },
     plugins: [
-        new webpack.HotModuleReplacementPlugin(),
         new webpack.NamedModulesPlugin(),
         new webpack.NoEmitOnErrorsPlugin(),
-        new ExtractTextPlugin('stylesheets/style.css'),
+        new ExtractTextPlugin(cssOutputLocation),
     ],
 };
+
+if (process.env.NODE_ENV === 'production') {
+    module.exports.plugins.push(new UglifyJsPlugin());
+}
+
+if (process.env.NODE_ENV !== 'production') {
+    module.exports.entry.unshift(
+        'react-hot-loader/patch',
+        'react-hot-loader/babel',
+        'webpack-hot-middleware/client'
+        );
+    module.exports.plugins.unshift(new webpack.HotModuleReplacementPlugin());
+}

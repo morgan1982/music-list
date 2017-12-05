@@ -49,18 +49,22 @@ app.use(passport.session());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // WEBPACK SERVER
-const webpackCompiler = webpack(webpackConfig);
-app.use(webpackDevMiddleware(webpackCompiler, {
-  publicPath: webpackConfig.output.publicPath,
-  stats: {
-    colors: true,
-    chunks: true,
-    'erros-only': true,
-  },
-}));
-app.use(webpackHotMiddleware(webpackCompiler, {
-  log: console.log,
-}));
+if (process.env.NODE_ENV !== 'production') {
+
+  const webpackCompiler = webpack(webpackConfig);
+  app.use(webpackDevMiddleware(webpackCompiler, {
+    publicPath: webpackConfig.output.publicPath,
+    stats: {
+      colors: true,
+      chunks: true,
+      'erros-only': true,
+    },
+  }));
+  app.use(webpackHotMiddleware(webpackCompiler, {
+    log: console.log,
+  }));
+
+}
 
 
 // routers
