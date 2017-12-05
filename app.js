@@ -17,6 +17,7 @@ const webpackHotMiddleware = require('webpack-hot-middleware');
 const index = require('./routes/index');
 const api = require('./routes/api/index');
 const users = require('./routes/api/users');
+const authentication = require('./routes/api/authentication');
 
 const app = express();
 
@@ -65,6 +66,7 @@ app.use(webpackHotMiddleware(webpackCompiler, {
 // routers
 app.use('/api', api); // first so if express find the api route it will not send to react
 app.use('/api/users', users);
+app.use('/api/authentication', authentication);
 app.use('/*', index);
 
 

@@ -4,24 +4,21 @@ import { Button } from 'reactstrap';
 import Sidebar from '../shared/Sidebar';
 import DropDown from './DropDown';
 
-const showAlert = () => {
-
-    alert('we are deleting your system');
-}
 
 
 
-const HomePage = () => {
+
+const HomePage = (props) => {
+
+    const { decrementFunction, incrementFunction } = props;
 
     return (
             <div className="row">
                 <div className="col-sm-12 col-md-8">
-                    <p>This is the Home Page.</p>
-                    <DropDown />
-                    <p>push the button</p>
-                    <button onClick={showAlert}>Push</button>
+                    <Button onClick={ incrementFunction }>Increment</Button> &nbsp;
+                    <Button onClick={ decrementFunction }>Decrement</Button>
                 </div>
-                <Sidebar />
+            <Sidebar />
             </div>
         )
 }
