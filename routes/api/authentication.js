@@ -1,9 +1,11 @@
 const express = require('express');
+const mongoose = require('mongoose');
 const passport = require('passport');
 const User = require('../../models/user.js');
 
 const router = express.Router();
 
+mongoose.Promise = global.Promise;
 
 router.post('/register', (req, res) => {
     //uses the values from the incoming json
@@ -18,8 +20,17 @@ router.post('/register', (req, res) => {
         return res.send(JSON.stringify(user));
     });
 });
+//LOGIN
+router.post('/login', async (req, res) => {
+    // look up the user by their emails
+    const query = User.findOne({
+        email: req.body.email
+    })
+    const foundUser = await query.exec();
 
-router.post('/login', (req, res) => {
+    if (foundUser) {
+        req.body.username = foundUser.username;
+    }
     passport.authenticate('local')(req, res, () => {
 
         //if the login is succesfull send the user info back

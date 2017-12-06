@@ -25,6 +25,8 @@ module.exports = {
     context: resolve(__dirname, 'src'),
     // devtool: "inline-source-map",
     entry: [
+        "babel-polyfill",
+        // "lib/client",
         './index.jsx',
     ],
     output: jsOutputLocation,

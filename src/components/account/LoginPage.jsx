@@ -6,6 +6,30 @@ export default class LoginPage extends React.Component {
 
     constructor(props) {
         super(props);
+
+        this.compileFormData = this.compileFormData.bind(this);
+        this.handleEmailChange = this.handleEmailChange.bind(this);
+        this.handlePasswordChange = this.handlePasswordChange.bind(this);
+
+        this.state = {
+            email: '',
+            password: '',
+        };
+    }
+
+    handleEmailChange(e) {
+        this.setState({ email: e.target.value });
+        console.log(e.target.value);
+    }
+    handlePasswordChange(e) {
+        this.setState({ password: e.target.value });
+    }
+
+    compileFormData() {
+        console.log(this.props);
+        const { loginFunction } = this.props;
+        const formData = this.state;
+        loginFunction(formData);
     }
 
 
@@ -21,18 +45,22 @@ export default class LoginPage extends React.Component {
                                 name="email"
                                 id="exampleEmail"
                                 placeholder="noreply@musiclist.com"
+                                value={this.state.email}
+                                onChange={this.handleEmailChange}
                             />
                         </FormGroup>
                         <FormGroup>
-                            <Label for="exampleEmail">Email</Label>
+                            <Label for="exampleEmail">PassWord</Label>
                             <Input
                                 type="password"
                                 name="password"
                                 id="examplePassword"
                                 placeholder="password"
+                                value={this.state.password}
+                                onChange={this.handlePasswordChange}
                             />
                         </FormGroup>
-                        <Button>Log In</Button>
+                        <Button onClick={this.compileFormData}>Log In</Button>
                     </Form>
                 </div>
             </div>

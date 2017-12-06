@@ -2,7 +2,6 @@ import React from 'react';
 import { Button } from 'reactstrap';
 
 import Sidebar from '../shared/Sidebar';
-import DropDown from './DropDown';
 
 
 
