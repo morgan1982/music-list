@@ -10,7 +10,7 @@ const LocalStrategy = require('passport-local').Strategy;
 
 // for webpack config
 const webpack = require('webpack');
-const webpackConfig = require('./webpack.config');
+const webpackConfig = require('./webpack.config.babel');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 const webpackHotMiddleware = require('webpack-hot-middleware');
 

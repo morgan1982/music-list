@@ -17,9 +17,10 @@ export default function configureStore(initialState) {
     const store = createStore(combinedReducers, initialState, enhancer);
 
     if (module.hot) {
-        module.hot.accept('../reducers/progress', () =>
-            store.replaceReducer(ProgressReducer),
-            );
+        module.hot.accept('../reducers/progress', () => {
+                store.replaceReducer(ProgressReducer);
+                console.log("hot is ok for redux");
+            });
     }
     return store;
 }

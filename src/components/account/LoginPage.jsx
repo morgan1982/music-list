@@ -26,7 +26,6 @@ export default class LoginPage extends React.Component {
     }
 
     compileFormData() {
-        console.log(this.props);
         const { loginFunction } = this.props;
         const formData = this.state;
         loginFunction(formData);

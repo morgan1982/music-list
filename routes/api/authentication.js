@@ -35,6 +35,7 @@ router.post('/login', async (req, res) => {
 
         //if the login is succesfull send the user info back
         if (req.user) {
+            console.log(req.user);
             return res.send(JSON.stringify(req.user));
         }
         //return an error
