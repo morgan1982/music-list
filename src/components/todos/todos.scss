@@ -1,6 +1,27 @@
 .todo-wrapper {
     text-align: center;
 }
+.input-wrapper {
+    display: flex;
+}
+.input-btn {
+    outline: none;
+    box-shadow: none;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    padding: auto;
+    width: 70px;
+    height: 35px;
+}
+.btn-add {
+    color: rgba(73, 204, 249, 1.0);
+    border-color: rgba(73, 204, 249, 1.0);
+    background-color: transparent;
+}
+.input-btn:hover {
+    color: orange;
+}
 
 
 input {

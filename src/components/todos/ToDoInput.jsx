@@ -7,19 +7,27 @@ export default class ToDoInput extends Component {
         super(props);
 
     this.state = {
-        value: "test"
+        value: "",
     };
 
     this.handleChange = this.handleChange.bind(this);
     this.addTodo = this.addTodo.bind(this);
 
     }
+
     handleChange(e) {
-        console.log(this.state.value);
+        console.log(e.target.value);
+        this.setState({
+            value: e.target.value,
+        });
     }
 
     addTodo(todo) {
-        console.log("Todo: ", todo);
+        console.log("todo value: ", todo);
+        if (todo.length > 0) {
+            this.props.addTodo(todo);
+            this.setState({value: ''})
+                }
     }
 
 
@@ -27,10 +35,10 @@ export default class ToDoInput extends Component {
 
 
         return (
-            <div>
-               <input type="text" value="" onChange={this.handleChange} />
-               <button className="input-btn btn-add" onClick={ () => this.addTodo(this.state.value) }>Add</button>
-            </div>
+            <form className="input-wrapper">
+               <input type="text" value={this.state.value} onChange={this.handleChange} />
+               <button type="submit" className="input-btn btn-add" onClick={() => this.addTodo(this.state.value)}>Add</button>
+            </form>
             );
     }
 }
