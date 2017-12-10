@@ -33,6 +33,9 @@ export default class Header extends Component {
                                     <NavItem>
                                         <NavLink tag={Link} to="/acount/login">Log in</NavLink>
                                     </NavItem>
+                                        <NavItem>
+                                        <NavLink tag={Link} to="/todos">Todos</NavLink>
+                                    </NavItem>
                                 </Nav>
                             </Collapse>
                 </Navbar>

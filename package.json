@@ -7,7 +7,7 @@
     "start-prod": "SET NODE_ENV=production&& node ./bin/www",
     "test": "jest",
     "lint": "eslint .",
-    "build-prod": "SET NODE_ENV=production&&webpack -p --config webpack.config.js"
+    "build-prod": "SET NODE_ENV=production&&webpack -p --config webpack.config.babel.js"
   },
   "dependencies": {
     "babel-core": "^6.26.0",

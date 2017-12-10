@@ -1,34 +1,25 @@
 import React from 'react';
+import 'bootstrap';
 import { AppContainer } from 'react-hot-loader';
-import { Provider } from 'react-redux';
 import { render } from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import './css/musiclist.scss';
-import DevTools from './components/shared/DevTools';
-import configureStore from './store';
-import TemplateContainer from './components/TemplateContainer';
-
-const Store = configureStore();
+import './css/main.scss';
+import Template from './components/Template';
 
 const renderApp = (Component) => {
 
     render(
         <AppContainer>
-            <Provider store={Store}>
-                <div>
-                    <Component />
-                    <DevTools />
-                </div>
-            </Provider>
+            <Component />
         </AppContainer>,
         document.querySelector('#react-app'),
         );
 };
 
-renderApp(TemplateContainer);
+renderApp(Template);
 
 if (module && module.hot) {
     module.hot.accept('./components/Template', () => {
-        renderApp(TemplateContainer);
+        renderApp(Template);
     })
 }

@@ -25,14 +25,14 @@ module.exports = {
     context: resolve(__dirname, 'src'),
     // devtool: "inline-source-map",
     entry: [
-        "babel-polyfill",
+        'tether',
         // "lib/client",
         './index.jsx',
     ],
     output: jsOutputLocation,
     resolve: {
     // to look for certain extensions
-       extensions: ['.js', '.jsx'],
+       extensions: ['.js', '.jsx', 'scss'],
     },
     module: {
         rules: [
@@ -63,12 +63,40 @@ module.exports = {
                     fallback: 'style-loader',
                 }),
             },
+            {
+                test: /bootstrap\/dist\/js\/umd\//,
+                use: 'imports-loader?jQuery=jquery'
+            },
         ],
     },
     plugins: [
         new webpack.NamedModulesPlugin(),
         new webpack.NoEmitOnErrorsPlugin(),
-        new ExtractTextPlugin(cssOutputLocation),
+        new ExtractTextPlugin({
+            filename: cssOutputLocation,
+            disable: process.env.NODE_ENV !== 'production',
+        }),
+        new webpack.ProvidePlugin({
+          $: 'jquery',
+          jQuery: 'jquery',
+          'window.jQuery': 'jquery',
+          tether: 'tether',
+          Tether: 'tether',
+          'window.Tether': 'tether',
+          Popper: ['popper.js', 'default'],
+          'window.Tether': 'tether',
+          Alert: 'exports-loader?Alert!bootstrap/js/dist/alert',
+          Button: 'exports-loader?Button!bootstrap/js/dist/button',
+          Carousel: 'exports-loader?Carousel!bootstrap/js/dist/carousel',
+          Collapse: 'exports-loader?Collapse!bootstrap/js/dist/collapse',
+          Dropdown: 'exports-loader?Dropdown!bootstrap/js/dist/dropdown',
+          Modal: 'exports-loader?Modal!bootstrap/js/dist/modal',
+          Popover: 'exports-loader?Popover!bootstrap/js/dist/popover',
+          Scrollspy: 'exports-loader?Scrollspy!bootstrap/js/dist/scrollspy',
+          Tab: 'exports-loader?Tab!bootstrap/js/dist/tab',
+          Tooltip: "exports-loader?Tooltip!bootstrap/js/dist/tooltip",
+          Util: 'exports-loader?Util!bootstrap/js/dist/util'
+        }),
     ],
 };
 
